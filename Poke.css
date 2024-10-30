@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(90deg,#4743d0,#880868);
+    min-height: 100vh;
+    width: 100vw;
+}
+.poke-box{
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+#pokeSprite{
+    width: 80%;
+}
+#form{
+  
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#poke-conteinar{
+    flex-wrap: wrap;
+   display: flex;
+}
+#pokeName{
+    font-weight: bold;
+    font-size: 20px;
+}
+#pokeId{
+    font-size: 15px;
+}
+#pokeType{
+    font-size: 15px;
+
+}
+#pokeSearch{
+    text-align: center;
+    width: 300px;
+
+    
+  
+}
+#weight{
+    font-size: 15px;
+}
+#fake{
+    display: none;
+}
