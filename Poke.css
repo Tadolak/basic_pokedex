@@ -16,15 +16,12 @@ body{
     width: 200px;
     border-radius: 50px;
     text-align: center;
-
 }
 #pokeSprite{
     width: 80%;
 }
 #form{
-  
     width: 100%;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,14 +39,10 @@ body{
 }
 #pokeType{
     font-size: 15px;
-
 }
 #pokeSearch{
     text-align: center;
     width: 300px;
-
-    
-  
 }
 #weight{
     font-size: 15px;
